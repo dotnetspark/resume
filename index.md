@@ -2,23 +2,6 @@
 layout: default
 ---
 
-<div style="display: flex; align-items: center; margin-bottom: 30px;">
-  <img src="assets/images/profile.jpg" alt="Yadel Lopez" style="width: 150px; height: 150px; border-radius: 50%; margin-right: 30px; object-fit: cover;">
-  <div>
-    <h1 style="margin: 0;">Yadel Lopez</h1>
-    <h3 style="margin: 5px 0; color: #666;">Software Engineer & Distributed Systems Architect</h3>
-    <p style="margin: 10px 0;">
-      📍 Naples, FL<br>
-      📞 (239) 378-3633<br>
-      📧 <a href="mailto:yadel.lopez@eblsoftware.com">yadel.lopez@eblsoftware.com</a><br>
-      🔗 <a href="https://linkedin.com/in/dotnetspark" target="_blank">LinkedIn</a> | 
-      💻 <a href="https://github.com/dotnetspark" target="_blank">GitHub</a>
-    </p>
-  </div>
-</div>
-
----
-
 ## SUMMARY
 
 Software Engineer and Distributed Systems Architect with 15+ years of experience designing fault-tolerant, multi-tenant cloud-native solutions with ASP.NET, Service Fabric, RabbitMQ, Redis, MongoDB, and Azure SQL. Proven leadership in driving observability-first with Prometheus and Grafana and platform resiliency enforcing SLA boundaries. Passionate about operational excellence, AI-driven architecture, and cloud-native scalability. Track record of delivering multimillion-dollar impact, mentoring high-performance teams, and leading technical initiatives in both public and enterprise environments.
