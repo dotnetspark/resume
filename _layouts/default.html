@@ -19,8 +19,9 @@
       <div style="display: flex; align-items: center; justify-content: center; max-width: 1200px; margin: 0 auto; padding: 0 1rem;">
         <img src="{{ site.avatar | relative_url }}" alt="{{ site.author }}" style="width: 120px; height: 120px; border-radius: 50%; margin-right: 30px; object-fit: cover; border: 4px solid rgba(255,255,255,0.3);">
         <div style="text-align: left;">
-          <h1 class="project-name" style="margin: 0; color: white;">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-          <h2 class="project-tagline" style="margin: 10px 0 0 0; color: rgba(255,255,255,0.9);">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+          {% comment %}Prefer site title/description to avoid pulling the first page heading/excerpt into the header{% endcomment %}
+          <h1 class="project-name" style="margin: 0; color: white;">{{ site.title }}</h1>
+          <h2 class="project-tagline" style="margin: 10px 0 0 0; color: rgba(255,255,255,0.9);">{{ site.description }}</h2>
           <div style="margin-top: 15px; color: rgba(255,255,255,0.8); font-size: 0.9em;">
             📍 {{ site.location }} | 📞 <a href="tel:{{ site.phone }}" style="color: rgba(255,255,255,0.9); text-decoration: none;">{{ site.phone }}</a> | 📧 <a href="mailto:{{ site.email }}" style="color: rgba(255,255,255,0.9);">{{ site.email }}</a>
             <br>
